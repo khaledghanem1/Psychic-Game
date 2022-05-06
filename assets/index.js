@@ -38,7 +38,6 @@ $(document).ready(function () {
         $('#losses').html(losses);
         $('#guessesLeft').html(guessesLeft);
         $('#lettersGuessed').append(userChoice + ", ");
-
     }
     function reset(){
         if (guessesLeft === 0) {
@@ -46,7 +45,5 @@ $(document).ready(function () {
             losses = 0;
             console.log("Game Reset")
         }
-    }
-
-    
+    }   
 });
